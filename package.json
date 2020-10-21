@@ -1,0 +1,33 @@
+{
+  "name": "fast-add-extent",
+  "version": "0.0.1",
+  "description": "Implementation of FastAddExtent algorithm for constructing concept lattice",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests",
+    "asbuild:untouched": "asc assembly/index.ts --target debug",
+    "asbuild:optimized": "asc assembly/index.ts --target release",
+    "asbuild": "npm run asbuild:untouched && npm run asbuild:optimized"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalitine/fastAddExtent.git"
+  },
+  "keywords": [
+    "lattice",
+    "fca",
+    "addExtent"
+  ],
+  "author": "Philippe Kalitine <philippe.kalitine@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kalitine/fastAddExtent/issues"
+  },
+  "homepage": "https://github.com/kalitine/fastAddExtent#readme",
+  "dependencies": {
+    "@assemblyscript/loader": "^0.16.1"
+  },
+  "devDependencies": {
+    "assemblyscript": "^0.16.1"
+  }
+}
