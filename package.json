@@ -25,9 +25,10 @@
   },
   "homepage": "https://github.com/kalitine/fastAddExtent#readme",
   "dependencies": {
-    "@assemblyscript/loader": "^0.16.1"
+    "@assemblyscript/loader": "^0.17.2"
   },
   "devDependencies": {
-    "assemblyscript": "^0.16.1"
+    "assemblyscript": "^0.17.2",
+    "prettier": "^2.1.2"
   }
 }
